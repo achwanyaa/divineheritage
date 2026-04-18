@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // --- WhatsApp Cart Logic ---
   
   let cart = [];
-  const WHATSAPP_NUMBER = "254700000000"; // Placeholder: User should change this to their actual number
+  const WHATSAPP_NUMBER = "254795429932";
   
   const cartBtn = document.getElementById('cart-btn');
   const cartDrawer = document.getElementById('cart-drawer');
