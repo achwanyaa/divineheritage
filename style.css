@@ -320,10 +320,19 @@ header {
   background-color: #E2DBD0; /* Fallback */
 }
 
-/* Gradients for generic placeholders since we don't have images */
-.concern-img.skin { background: linear-gradient(135deg, #E2DBD0, #C5B09A); }
-.concern-img.hair { background: linear-gradient(135deg, #C5B09A, #8F7057); }
-.concern-img.beard { background: linear-gradient(135deg, #8F7057, #5C4336); }
+/* Background images for categories */
+.concern-img.oils { 
+  background: url('assets/products/aloe_vera_oil.jpg') center/cover no-repeat; 
+  background-position: center 12%; 
+}
+.concern-img.wash { 
+  background: url('assets/products/hibiscus_shampoo.jpg') center/cover no-repeat; 
+  background-position: center 12%; 
+}
+.concern-img.essentials { 
+  background: url('assets/products/clove_butter.jpg') center/cover no-repeat; 
+  background-position: center 12%; 
+}
 
 .concern-card::after {
   content: '';
@@ -787,5 +796,12 @@ header {
   margin-bottom: 1rem;
   font-family: var(--font-serif);
   color: var(--clr-maroon);
+}
+
+.catalog-crop {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 12%;
 }
 
